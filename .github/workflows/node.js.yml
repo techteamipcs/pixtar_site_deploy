@@ -31,6 +31,6 @@ jobs:
         username: ${{secrets.GOOGLE_CLOUD_VM_USERNAME}}
         port: ${{ secrets.GOOGLE_CLOUD_VM_PORT }}
         script: |
-          cd /www/wwwroot/build.pixtar.ae
+          cd /www/wwwroot/pixtar.ae
           git pull
           
