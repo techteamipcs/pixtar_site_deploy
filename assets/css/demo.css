@@ -7,6 +7,7 @@ body{
 @font-face {
     font-family: "barcelony";
     src: local("barcelony"),url('../fonts/barcelony.ttf') format("truetype");
+    font-display: swap;
   }
 .toastr{
    background-color: #000 !important;
