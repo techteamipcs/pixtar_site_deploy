@@ -262,6 +262,9 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 @splinetool/runtime
 
+angular-google-tag-manager
+MIT
+
 aos
 MIT
 The MIT License (MIT)
