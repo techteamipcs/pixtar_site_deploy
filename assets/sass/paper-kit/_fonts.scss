@@ -26,3 +26,16 @@
   src: url('../../fonts/lufga/LufgaBold.ttf')  format('truetype');
   font-display: swap;
 }
+
+// @font-face {
+//   font-family: 'barcelony';
+//   src: url('../../fonts/barcelony.ttf') format('truetype');
+//   font-display: swap;
+// }
+
+@font-face {
+  font-family: 'Barcelony';
+  src: url('../../fonts/barcelony.woff2') format('woff2'),
+       url('../../fonts/barcelony.ttf') format('truetype');
+  font-display: swap;
+}
