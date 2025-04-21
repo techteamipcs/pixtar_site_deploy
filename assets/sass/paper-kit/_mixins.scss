@@ -1,14 +1,14 @@
-//Utilities
 
+
+// Component-specific mixins - consider lazy loading
+@forward "mixins/buttons";
+@forward "mixins/inputs";
+@forward "mixins/labels";
+@forward "mixins/tabs";
+@forward "mixins/popovers";
+@forward "mixins/navbars";
+
+// Core utilities - always needed
 @import "mixins/transparency";
 @import "mixins/vendor-prefixes";
 
-
-//Components
-
-@import "mixins/buttons";
-@import "mixins/inputs";
-@import "mixins/labels";
-@import "mixins/tabs";
-@import "mixins/popovers";
-@import "mixins/navbars";

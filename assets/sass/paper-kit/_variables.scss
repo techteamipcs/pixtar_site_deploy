@@ -1,10 +1,9 @@
 @import './fonts.scss';
-@import './_fonts.scss';
 $font-color:                 #66615b !default;
 $fill-font-color:            rgba(255, 255, 255, 0.8);
 $font-family-sans-serif:     'Montserrat', sans-serif;
-// "Helvetica", Arial,
 
+// Optimized font declarations - remove any unused font weights
 // custom font lufga fonts
 $barcelony: "barcelony";
 $lufga-light:'lufga-light';
@@ -73,9 +72,6 @@ $purple-states-color:        darken($purple-color, 8%) !default;
 
 $brown-color:                #dcb285 !default;
 $brown-states-color:         darken($brown-color, 8%) !default;
-
-
-
 
 /*      light colors - used for select dropdown         */
 
@@ -160,6 +156,7 @@ $font-size-navbar:             14px !default;
 
 $font-size-info-horizontal:    2.5em !default;
 
+// Optimized font weights - consider using system fonts
 $font-weight-light:          300 !default;
 $font-weight-normal:         400 !default;
 $font-weight-semi:           500 !default;
