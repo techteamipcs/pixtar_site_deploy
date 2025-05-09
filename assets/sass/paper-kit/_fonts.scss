@@ -1,39 +1,43 @@
 /* Lufga Font Family - Combined */
 
-// @font-face {
-//   font-family: 'lufga-light';
-//   src: url('../../fonts/lufga/LufgaLight.ttf') format('truetype');
-//   font-weight: 300;
-//   font-style: normal;
-//   font-display: swap;
-// }
+@font-face {
+  font-family: 'lufga-light';
+  // src: url('../../fonts/lufga/LufgaLight.ttf') format('truetype');
+  src: url('../../fonts/lufga-converted/LufgaLight.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
 
-// @font-face {
-//   // font-family: 'Lufga';
-//   font-family: 'lufga-regular'; 
-//   src: url('../../fonts/lufga/LufgaRegular.ttf') format('truetype');
-//   font-weight: 400;
-//   font-style: normal;
-//   font-display: swap;
-// }
+@font-face {
+  // font-family: 'Lufga';
+  font-family: 'lufga-regular'; 
+  // src: url('../../fonts/lufga/LufgaRegular.ttf') format('truetype');
+  src: url('../../fonts/lufga-converted/LufgaRegular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
-// @font-face {
-//   // font-family: 'Lufga';
-//   font-family: 'lufga-medium'; 
-//   src: url('../../fonts/lufga/LufgaMedium.ttf') format('truetype');
-//   font-weight: 500;
-//   font-style: normal;
-//   font-display: swap;
-// }
+@font-face {
+  // font-family: 'Lufga';
+  font-family: 'lufga-medium'; 
+  src: url('../../fonts/lufga-converted/LufgaMedium.woff2') format('woff2');
+  // src: url('../../fonts/lufga/LufgaMedium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
 
-// @font-face {
-//   // font-family: 'Lufga';
-//   font-family: 'lufga-semibold'; 
-//   src: url('../../fonts/lufga/LufgaSemiBold.ttf') format('truetype');
-//   font-weight: 600;
-//   font-style: normal;
-//   font-display: swap;
-// }
+@font-face {
+  // font-family: 'Lufga';
+  font-family: 'lufga-semibold'; 
+  src: url('../../fonts/lufga-converted/LufgaSemiBold.woff2') format('woff2');
+  // src: url('../../fonts/lufga/LufgaSemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
 
 /* Barcelony Font */
 @font-face {
