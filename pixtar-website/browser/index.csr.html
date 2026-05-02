@@ -52,12 +52,14 @@
 	<noscript>
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 	</noscript>
+	<link id="app-arabic-font-stylesheet" rel="stylesheet" media="not all" data-href="https://fonts.googleapis.com/css2?family=Beiruti:wght@200;300;400;500;600;700;800;900&amp;display=swap">
 
 	<!-- ✅ Bootstrap — managed by Angular language state -->
 	<link id="app-bootstrap-stylesheet" rel="stylesheet" data-ltr-href="/bootstrap/bootstrap.min.css" data-rtl-href="/bootstrap/bootstrap.rtl.min.css">
 	<script>
 		(function () {
 			var html = document.documentElement;
+			var arabicFontsLink = document.getElementById('app-arabic-font-stylesheet');
 			var link = document.getElementById('app-bootstrap-stylesheet');
 			var lang = html.getAttribute('lang');
 			var cookieMatch;
@@ -84,6 +86,15 @@
 
 			html.setAttribute('lang', lang);
 			html.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
+
+			if (lang === 'ar' && arabicFontsLink) {
+				var arabicFontsHref = arabicFontsLink.getAttribute('data-href');
+
+				if (arabicFontsHref) {
+					arabicFontsLink.setAttribute('href', arabicFontsHref);
+					arabicFontsLink.media = 'all';
+				}
+			}
 
 			if (!link) {
 				return;
@@ -156,6 +167,10 @@
 			-webkit-font-smoothing: antialiased;
 		}
 
+		html[lang='ar'] body {
+			font-family: 'Beiruti', 'Tajawal', 'Montserrat', 'Lufga', -apple-system, sans-serif;
+		}
+
 		/* ✅ Reserve banner space before Angular loads */
 		app-root {
 			display: block;
@@ -210,11 +225,215 @@
 			}
 		}
 	</style>
-
-<style>@font-face{font-family:lufga-regular;src:url(/fonts/lufgaRegular.woff2) format("woff2");font-weight:400;font-style:normal;font-display:swap}body{overflow-x:hidden;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-tap-highlight-color:transparent;scroll-behavior:smooth;text-rendering:optimizeSpeed;font-family:lufga-regular,sans-serif;font-size:16px}html,body{overflow-y:auto}html{overflow-y:scroll}body{margin:0}</style><link rel="stylesheet" href="styles-OQ4T6S7Q.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-OQ4T6S7Q.css"></noscript></head>
+	<!-- Google Tag Manager -->
+	<script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || []; w[l].push({
+				'gtm.start':
+					new Date().getTime(), event: 'gtm.js'
+			}); var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+					'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-KKRMXMC6');
+	</script>
+	<!-- End Google Tag Manager -->
+	<!-- Google Tag Manager (noscript) -->
+	<noscript>
+		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKRMXMC6" height="0" width="0" style="display:none;visibility:hidden">
+		</iframe>
+	</noscript>
+<style>@font-face{font-family:lufga-light;src:url(/fonts/lufgaLight.woff2) format("woff2");font-weight:300;font-style:normal;font-display:swap}@font-face{font-family:lufga-regular;src:url(/fonts/lufgaRegular.woff2) format("woff2");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:lufga-medium;src:url(/fonts/lufgaMedium.woff2) format("woff2");font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:lufga-semibold;src:url(/fonts/lufgaSemiBold.woff2) format("woff2");font-weight:600;font-style:normal;font-display:swap}@font-face{font-family:lufga-bold;src:url(/fonts/lufgaBold.woff2) format("woff2");font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:Tajawal;src:url(/fonts/tajawal/tajawal-extralight.ttf) format("truetype");font-weight:200;font-style:normal;font-display:swap}@font-face{font-family:Tajawal;src:url(/fonts/tajawal/tajawal-light.ttf) format("truetype");font-weight:300;font-style:normal;font-display:swap}@font-face{font-family:Tajawal;src:url(/fonts/tajawal/tajawal-regular.ttf) format("truetype");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:Tajawal;src:url(/fonts/tajawal/tajawal-medium.ttf) format("truetype");font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:Tajawal;src:url(/fonts/tajawal/tajawal-bold.ttf) format("truetype");font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:Tajawal;src:url(/fonts/tajawal/tajawal-extrabold.ttf) format("truetype");font-weight:800;font-style:normal;font-display:swap}@font-face{font-family:Tajawal;src:url(/fonts/tajawal/tajawal-black.ttf) format("truetype");font-weight:900;font-style:normal;font-display:swap}:root{--app-font-body:lufga-regular, sans-serif;--app-font-light:Montserrat, sans-serif;--app-font-medium:Montserrat, sans-serif;--app-font-semibold:Montserrat, sans-serif;--app-font-bold:Montserrat, sans-serif;--app-font-banner-arabic:Tajawal, sans-serif;--app-font-arabic:Beiruti, sans-serif;--app-font-regular:Montserrat, sans-serif;--app-font-lufgalight:lufga-light, sans-serif;--app-font-lufgaregular:lufga-regular, sans-serif;--app-font-lufgamedium:lufga-medium, sans-serif;--app-font-lufgasemibold:lufga-semibold, sans-serif;--app-font-lufgabold:lufga-bold, sans-serif}body{overflow-x:hidden;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-tap-highlight-color:transparent;scroll-behavior:smooth;text-rendering:optimizeSpeed;font-family:var(--app-font-body);font-size:16px}html,body{overflow-y:auto}html{overflow-y:scroll}body{margin:0}</style><link rel="stylesheet" href="styles-2YK2WFFP.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-2YK2WFFP.css"></noscript></head>
 
 <body ngcm="">
+	<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "ProfessionalService",
+ "name": "Pixtar Design Agency",
+ "image": "https://www.pixtar.ae/assets/img/logos/pixtar-main-logo.webp",
+ "url": "https://www.pixtar.ae/",
+ "telephone": "+971527930781",
+ "email": "kbn@pixtar.ae",
+ "priceRange": "$$",
+ "address": {
+   "@type": "PostalAddress",
+   "streetAddress": "Espada Business Center, Rasis Business Centre - 501, 5th Floor Al Barsha - Al Barsha 1 - Dubai",
+   "addressLocality": "Dubai",
+   "addressRegion": "Dubai",
+   "postalCode": "00000",
+   "addressCountry": "AE"
+ },
+ "geo": {
+   "@type": "GeoCoordinates",
+   "latitude": "25.125833",
+   "longitude": "55.208333"
+ },
+ "openingHoursSpecification": [
+   {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+     "opens": "09:00",
+     "closes": "18:00"
+   }
+ ],
+ "areaServed": [
+   "Dubai",
+   "Abu Dhabi",
+   "Sharjah",
+   "United Arab Emirates",
+   "Saudi Arabia",
+   "Middle East"
+ ],
+ "sameAs": [
+   "https://www.linkedin.com/company/pixtar-ae/",
+   "https://www.instagram.com/pixtar.ae/"
+ ]
+}
+</script>
+	<script defer="" type="application/ld+json">
+			{
+				"@context": "https://schema.org/",
+				"@type": "BreadcrumbList",
+				"itemListElement": [
+					{
+						"@type": "ListItem",
+						"position": 1,
+						"name": "Home",
+						"item": "https://www.pixtar.ae"
+					},
+					{
+						"@type": "ListItem",
+						"position": 2,
+						"name": "Services",
+						"item": "https://www.pixtar.ae/services"
+					},
+					{
+						"@type": "ListItem",
+						"position": 3,
+						"name": "Blogs",
+						"item": "https://www.pixtar.ae/blog"
+					},
+					{
+						"@type": "ListItem",
+						"position": 4,
+						"name": "Contact",
+						"item": "https://www.pixtar.ae/contact"
+					}
+				]
+			}
+		</script>
+	<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "Organization",
+				"name": "Pixtar",
+				"url": "https://www.pixtar.ae/",
+				"logo": "https://www.pixtar.ae/assets/img/logos/pixtar-main-logo.webp",
+				"description": "Pixtar is a Brand Design and Web Development Agency in Dubai, specializing in branding, graphic design, website development, and eCommerce solutions.",
+				"address": {
+					"@type": "PostalAddress",
+					"streetAddress": "Espada Business Center, Rasis Business Centre - 501, 5th Floor Al Barsha - Al Barsha 1 - Dubai",
+					"addressLocality": "Dubai",
+					"addressCountry": "AE"
+				},
+				"contactPoint": {
+					"@type": "ContactPoint",
+					"telephone": "+971527930781",
+					"contactType": "sales",
+					"email": "kbn@pixtar.ae"
+				},
+				"sameAs": [
+					"https://www.linkedin.com/company/pixtar-ae/",
+					"https://www.instagram.com/pixtar.ae/"
+				],
+				"makesOffer": [
+					{
+						"@type": "Offer",
+						"itemOffered": {
+							"@type": "Service",
+							"name": "Branding",
+							"description": "Pixtar offers branding, logo design, corporate rebranding, and custom branding services in Dubai.",
+							"provider": {
+								"@type": "Organization",
+								"name": "Pixtar"
+							}
+						}
+					},
+					{
+						"@type": "Offer",
+						"itemOffered": {
+							"@type": "Service",
+							"name": "Website Development",
+							"description": "Web design and web development services for premium brands in Dubai.",
+							"provider": {
+								"@type": "Organization",
+								"name": "Pixtar"
+							}
+						}
+					},
+					{
+						"@type": "Offer",
+						"itemOffered": {
+							"@type": "Service",
+							"name": "Graphic Design",
+							"description": "With Pixtar's subscription, you get unlimited, high-quality graphic design—crafted from scratch, no templates, no limits.",
+							"provider": {
+								"@type": "Organization",
+								"name": "Pixtar"
+							}
+						}
+					},
+					{
+						"@type": "Offer",
+						"itemOffered": {
+							"@type": "Service",
+							"name": "eCommerce Web Development",
+							"description": "Whether it's Magento, Shopify, or Node.js, Pixtar creates custom eCommerce platforms that perform, scale, and grow with you.",
+							"provider": {
+								"@type": "Organization",
+								"name": "Pixtar"
+							}
+						}
+					}
+				]
+			}
+		</script>
+
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org/",
+			"@type": "WebSite",
+			"name": "Pixtar",
+			"url": "https://www.pixtar.ae/",
+			"potentialAction": {
+			"@type": "SearchAction",
+			"target": "http://pixtar.ae/services{search_term_string}",
+			"query-input": "required name=search_term_string"
+			}
+		}
+</script>
 	<app-root></app-root>
-<link rel="modulepreload" href="chunk-UIR4YHLL.js"><link rel="modulepreload" href="chunk-IPSAZGZU.js"><link rel="modulepreload" href="chunk-Q7YZ2IPK.js"><link rel="modulepreload" href="chunk-W2FGBWMQ.js"><link rel="modulepreload" href="chunk-EMXMDSUE.js"><link rel="modulepreload" href="chunk-QDH5APDR.js"><link rel="modulepreload" href="chunk-MTIATRXZ.js"><link rel="modulepreload" href="chunk-5EQT6RHZ.js"><link rel="modulepreload" href="chunk-IMPBB4AK.js"><script src="main-PYKSKZ4A.js" type="module"></script></body>
+	<!-- Apollo Tracker -->
+	<script>
+		window.addEventListener('load', function () {
+			var n = Math.random().toString(36).substring(7);
+			var script = document.createElement('script');
+
+			script.src = 'https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=' + n;
+			script.async = true;
+			script.defer = true;
+
+			script.onload = function () {
+				if (window.trackingFunctions) {
+					window.trackingFunctions.onLoad({
+						appId: '69324e1d2c8ea20021d2ae69'
+					});
+				}
+			};
+
+			document.body.appendChild(script);
+		});
+	</script>
+<link rel="modulepreload" href="chunk-UIR4YHLL.js"><link rel="modulepreload" href="chunk-IPSAZGZU.js"><link rel="modulepreload" href="chunk-Q7YZ2IPK.js"><link rel="modulepreload" href="chunk-3OZ5OLQP.js"><link rel="modulepreload" href="chunk-EMXMDSUE.js"><link rel="modulepreload" href="chunk-QDH5APDR.js"><link rel="modulepreload" href="chunk-MTIATRXZ.js"><link rel="modulepreload" href="chunk-5EQT6RHZ.js"><link rel="modulepreload" href="chunk-IMPBB4AK.js"><script src="main-HZWPGL3V.js" type="module"></script></body>
 
 </html>
