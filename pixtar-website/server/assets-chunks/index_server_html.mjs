@@ -416,27 +416,6 @@ export default `<!doctype html>
 		}
 </script>
 	<app-root></app-root>
-	<!-- Apollo Tracker -->
-	<script>
-		window.addEventListener('load', function () {
-			var n = Math.random().toString(36).substring(7);
-			var script = document.createElement('script');
-
-			script.src = 'https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=' + n;
-			script.async = true;
-			script.defer = true;
-
-			script.onload = function () {
-				if (window.trackingFunctions) {
-					window.trackingFunctions.onLoad({
-						appId: '69324e1d2c8ea20021d2ae69'
-					});
-				}
-			};
-
-			document.body.appendChild(script);
-		});
-	</script>
 <link rel="modulepreload" href="chunk-UIR4YHLL.js"><link rel="modulepreload" href="chunk-IPSAZGZU.js"><link rel="modulepreload" href="chunk-Q7YZ2IPK.js"><link rel="modulepreload" href="chunk-3OZ5OLQP.js"><link rel="modulepreload" href="chunk-EMXMDSUE.js"><link rel="modulepreload" href="chunk-QDH5APDR.js"><link rel="modulepreload" href="chunk-MTIATRXZ.js"><link rel="modulepreload" href="chunk-5EQT6RHZ.js"><link rel="modulepreload" href="chunk-IMPBB4AK.js"><script src="main-HZWPGL3V.js" type="module"></script></body>
 
 </html>`;
