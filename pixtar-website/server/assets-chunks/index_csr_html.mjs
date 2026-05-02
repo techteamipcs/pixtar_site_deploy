@@ -413,6 +413,6 @@ export default `<!doctype html>
 		}
 </script>
 	<app-root></app-root>
-<link rel="modulepreload" href="chunk-UIR4YHLL.js"><link rel="modulepreload" href="chunk-IPSAZGZU.js"><link rel="modulepreload" href="chunk-Q7YZ2IPK.js"><link rel="modulepreload" href="chunk-3OZ5OLQP.js"><link rel="modulepreload" href="chunk-EMXMDSUE.js"><link rel="modulepreload" href="chunk-QDH5APDR.js"><link rel="modulepreload" href="chunk-MTIATRXZ.js"><link rel="modulepreload" href="chunk-5EQT6RHZ.js"><link rel="modulepreload" href="chunk-IMPBB4AK.js"><script src="main-HZWPGL3V.js" type="module"></script></body>
+<link rel="modulepreload" href="chunk-UIR4YHLL.js"><link rel="modulepreload" href="chunk-IPSAZGZU.js"><link rel="modulepreload" href="chunk-Q7YZ2IPK.js"><link rel="modulepreload" href="chunk-3OZ5OLQP.js"><link rel="modulepreload" href="chunk-EMXMDSUE.js"><link rel="modulepreload" href="chunk-QDH5APDR.js"><link rel="modulepreload" href="chunk-MTIATRXZ.js"><link rel="modulepreload" href="chunk-5EQT6RHZ.js"><link rel="modulepreload" href="chunk-IMPBB4AK.js"><script src="main-AZV44USW.js" type="module"></script></body>
 
 </html>`;
