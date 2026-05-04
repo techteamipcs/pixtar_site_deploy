@@ -56,7 +56,12 @@ export default `<!doctype html>
 	<link id="app-arabic-font-stylesheet" rel="stylesheet" media="not all" data-href="https://fonts.googleapis.com/css2?family=Beiruti:wght@200;300;400;500;600;700;800;900&amp;display=swap">
 
 	<!-- ✅ Bootstrap — managed by Angular language state -->
-	<link id="app-bootstrap-stylesheet" rel="stylesheet" data-ltr-href="/bootstrap/bootstrap.min.css" data-rtl-href="/bootstrap/bootstrap.rtl.min.css">
+	<!-- <link id="app-bootstrap-stylesheet" rel="stylesheet" data-ltr-href="/bootstrap/bootstrap.min.css"
+		data-rtl-href="/bootstrap/bootstrap.rtl.min.css"> -->
+	<link id="app-bootstrap-stylesheet" rel="preload" as="style" data-ltr-href="/bootstrap/bootstrap.min.css" data-rtl-href="/bootstrap/bootstrap.rtl.min.css" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript>
+		<link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
+	</noscript>
 	<script>
 		(function () {
 			var html = document.documentElement;
@@ -239,6 +244,7 @@ export default `<!doctype html>
 	</script>
 	<!-- End Google Tag Manager -->
 <style>@font-face{font-family:lufga-light;src:url(/fonts/lufgaLight.woff2) format("woff2");font-weight:300;font-style:normal;font-display:swap}@font-face{font-family:lufga-regular;src:url(/fonts/lufgaRegular.woff2) format("woff2");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:lufga-medium;src:url(/fonts/lufgaMedium.woff2) format("woff2");font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:lufga-semibold;src:url(/fonts/lufgaSemiBold.woff2) format("woff2");font-weight:600;font-style:normal;font-display:swap}@font-face{font-family:lufga-bold;src:url(/fonts/lufgaBold.woff2) format("woff2");font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:Tajawal;src:url(/fonts/tajawal/tajawal-extralight.ttf) format("truetype");font-weight:200;font-style:normal;font-display:swap}@font-face{font-family:Tajawal;src:url(/fonts/tajawal/tajawal-light.ttf) format("truetype");font-weight:300;font-style:normal;font-display:swap}@font-face{font-family:Tajawal;src:url(/fonts/tajawal/tajawal-regular.ttf) format("truetype");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:Tajawal;src:url(/fonts/tajawal/tajawal-medium.ttf) format("truetype");font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:Tajawal;src:url(/fonts/tajawal/tajawal-bold.ttf) format("truetype");font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:Tajawal;src:url(/fonts/tajawal/tajawal-extrabold.ttf) format("truetype");font-weight:800;font-style:normal;font-display:swap}@font-face{font-family:Tajawal;src:url(/fonts/tajawal/tajawal-black.ttf) format("truetype");font-weight:900;font-style:normal;font-display:swap}:root{--app-font-body:lufga-regular, sans-serif;--app-font-light:Montserrat, sans-serif;--app-font-medium:Montserrat, sans-serif;--app-font-semibold:Montserrat, sans-serif;--app-font-bold:Montserrat, sans-serif;--app-font-banner-arabic:Tajawal, sans-serif;--app-font-arabic:Beiruti, sans-serif;--app-font-regular:Montserrat, sans-serif;--app-font-lufgalight:lufga-light, sans-serif;--app-font-lufgaregular:lufga-regular, sans-serif;--app-font-lufgamedium:lufga-medium, sans-serif;--app-font-lufgasemibold:lufga-semibold, sans-serif;--app-font-lufgabold:lufga-bold, sans-serif}body{overflow-x:hidden;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-tap-highlight-color:transparent;scroll-behavior:smooth;text-rendering:optimizeSpeed;font-family:var(--app-font-body);font-size:16px}html,body{overflow-y:auto}html{overflow-y:scroll}body{margin:0}</style><link rel="stylesheet" href="styles-2YK2WFFP.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-2YK2WFFP.css"></noscript></head>
+
 <body ngcm="">
 	<!-- Google Tag Manager (noscript) -->
 	<noscript>
@@ -413,6 +419,6 @@ export default `<!doctype html>
 		}
 </script>
 	<app-root></app-root>
-<link rel="modulepreload" href="chunk-UIR4YHLL.js"><link rel="modulepreload" href="chunk-IPSAZGZU.js"><link rel="modulepreload" href="chunk-Q7YZ2IPK.js"><link rel="modulepreload" href="chunk-3OZ5OLQP.js"><link rel="modulepreload" href="chunk-EMXMDSUE.js"><link rel="modulepreload" href="chunk-QDH5APDR.js"><link rel="modulepreload" href="chunk-MTIATRXZ.js"><link rel="modulepreload" href="chunk-5EQT6RHZ.js"><link rel="modulepreload" href="chunk-IMPBB4AK.js"><script src="main-AZV44USW.js" type="module"></script></body>
+<link rel="modulepreload" href="chunk-UIR4YHLL.js"><link rel="modulepreload" href="chunk-IPSAZGZU.js"><link rel="modulepreload" href="chunk-Q7YZ2IPK.js"><link rel="modulepreload" href="chunk-3OZ5OLQP.js"><link rel="modulepreload" href="chunk-EMXMDSUE.js"><link rel="modulepreload" href="chunk-QDH5APDR.js"><link rel="modulepreload" href="chunk-MTIATRXZ.js"><link rel="modulepreload" href="chunk-5EQT6RHZ.js"><link rel="modulepreload" href="chunk-IMPBB4AK.js"><script src="main-DOU6XVZC.js" type="module"></script></body>
 
 </html>`;
