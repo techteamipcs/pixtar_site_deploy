@@ -234,15 +234,32 @@
 	</style>
 	<!-- Google Tag Manager -->
 	<script>
-		(function (w, d, s, l, i) {
-			w[l] = w[l] || []; w[l].push({
-				'gtm.start':
-					new Date().getTime(), event: 'gtm.js'
-			}); var f = d.getElementsByTagName(s)[0],
-				j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-					'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-		})(window, document, 'script', 'dataLayer', 'GTM-KKRMXMC6');
-	</script>
+  window.addEventListener('load', function () {
+    setTimeout(function () {
+
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+
+        w[l].push({
+          'gtm.start': new Date().getTime(),
+          event: 'gtm.js'
+        });
+
+        var f = d.getElementsByTagName(s)[0];
+        var j = d.createElement(s);
+        var dl = l != 'dataLayer' ? '&l=' + l : '';
+
+        j.async = true;
+        j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+
+        f.parentNode.insertBefore(j, f);
+
+      })(window, document, 'script', 'dataLayer', 'GTM-KKRMXMC6');
+
+    }, 3000);
+  });
+</script>
 	<!-- End Google Tag Manager -->
 <link rel="stylesheet" href="styles-ZAXRAG4S.css"></head>
 
@@ -422,6 +439,6 @@
 		}
 </script>
 	<app-root></app-root>
-<link rel="modulepreload" href="chunk-UIR4YHLL.js"><link rel="modulepreload" href="chunk-BPB76KUF.js"><link rel="modulepreload" href="chunk-IPSAZGZU.js"><link rel="modulepreload" href="chunk-Q7YZ2IPK.js"><link rel="modulepreload" href="chunk-3OZ5OLQP.js"><link rel="modulepreload" href="chunk-EMXMDSUE.js"><link rel="modulepreload" href="chunk-QDH5APDR.js"><link rel="modulepreload" href="chunk-MTIATRXZ.js"><link rel="modulepreload" href="chunk-5EQT6RHZ.js"><link rel="modulepreload" href="chunk-IMPBB4AK.js"><script src="main-QB3KZBCC.js" type="module"></script></body>
+<link rel="modulepreload" href="chunk-UIR4YHLL.js"><link rel="modulepreload" href="chunk-BPB76KUF.js"><link rel="modulepreload" href="chunk-IPSAZGZU.js"><link rel="modulepreload" href="chunk-Q7YZ2IPK.js"><link rel="modulepreload" href="chunk-3OZ5OLQP.js"><link rel="modulepreload" href="chunk-EMXMDSUE.js"><link rel="modulepreload" href="chunk-QDH5APDR.js"><link rel="modulepreload" href="chunk-MTIATRXZ.js"><link rel="modulepreload" href="chunk-5EQT6RHZ.js"><link rel="modulepreload" href="chunk-IMPBB4AK.js"><script src="main-JWXNHNHO.js" type="module"></script></body>
 
 </html>

@@ -127,7 +127,7 @@ export default {
   {
     "renderMode": 0,
     "preload": [
-      "chunk-LQLWZR33.js",
+      "chunk-BTJRLI2I.js",
       "chunk-J6ZFOPNS.js",
       "chunk-GTFWQXGE.js"
     ],
@@ -254,8 +254,8 @@ export default {
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 15879, hash: 'd57e57162904e0f59b368732685ed3e3abc00906f4e36964f8631ed08fe453e2', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 13703, hash: 'ad31edf804bfd3dc454db9b71fb6d284ab8da9bcbf7b11b0909d72b36798f2eb', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 16076, hash: '3ef97911a202784d4eccc1d342ca6d3260f21e4938d925f7161dd1416ece0c88', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 13900, hash: '2d95709f86904b5714c9585ac7c371cdb30df6a2bf6025976f36d82524df6f30', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
     'styles-ZAXRAG4S.css': {size: 12527, hash: 'X95/zaCsl14', text: () => import('./assets-chunks/styles-ZAXRAG4S_css.mjs').then(m => m.default)}
   },
 };
