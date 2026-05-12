@@ -7,255 +7,359 @@ export default {
   routes: [
   {
     "renderMode": 0,
+    "status": 404,
+    "headers": {
+      "X-Robots-Tag": "noindex, nofollow"
+    },
     "preload": [
-      "chunk-K3S73U5M.js",
-      "chunk-26ZGR6QK.js",
-      "chunk-GTFWQXGE.js"
+      "chunk-5LNQRIRR.js",
+      "chunk-3TJADGXF.js",
+      "chunk-TFXHZLUT.js"
     ],
     "route": "/"
   },
   {
     "renderMode": 0,
+    "status": 404,
+    "headers": {
+      "X-Robots-Tag": "noindex, nofollow"
+    },
     "preload": [
-      "chunk-VW57CVY6.js",
-      "chunk-26ZGR6QK.js",
-      "chunk-GTFWQXGE.js"
+      "chunk-C7PHZ6YF.js",
+      "chunk-3TJADGXF.js",
+      "chunk-TFXHZLUT.js"
     ],
     "route": "/about"
   },
   {
     "renderMode": 0,
+    "status": 404,
+    "headers": {
+      "X-Robots-Tag": "noindex, nofollow"
+    },
     "preload": [
-      "chunk-KPMQEEE3.js",
-      "chunk-HQQ3DBAA.js",
-      "chunk-J6ZFOPNS.js",
-      "chunk-JJ5XJBJF.js",
-      "chunk-26ZGR6QK.js",
-      "chunk-GTFWQXGE.js"
+      "chunk-6ENTIQUV.js",
+      "chunk-NNFLBSNT.js",
+      "chunk-VNFHEDD4.js",
+      "chunk-TGKPU3NL.js",
+      "chunk-3TJADGXF.js",
+      "chunk-TFXHZLUT.js"
     ],
     "route": "/services"
   },
   {
     "renderMode": 0,
+    "status": 404,
+    "headers": {
+      "X-Robots-Tag": "noindex, nofollow"
+    },
     "preload": [
-      "chunk-2YNZPCCX.js",
-      "chunk-2UFKL5XT.js",
-      "chunk-BGNREIHD.js",
-      "chunk-WUFOH5B5.js",
-      "chunk-YFNXOJQB.js",
-      "chunk-J6ZFOPNS.js",
-      "chunk-JJ5XJBJF.js",
-      "chunk-26ZGR6QK.js",
-      "chunk-GTFWQXGE.js"
+      "chunk-L2HINPSQ.js",
+      "chunk-4U73U2Y5.js",
+      "chunk-CCUJJJ6Q.js",
+      "chunk-BZ6MJF2N.js",
+      "chunk-VVZQQXBP.js",
+      "chunk-VNFHEDD4.js",
+      "chunk-TGKPU3NL.js",
+      "chunk-3TJADGXF.js",
+      "chunk-TFXHZLUT.js"
     ],
     "route": "/services/branding"
   },
   {
     "renderMode": 0,
+    "status": 404,
+    "headers": {
+      "X-Robots-Tag": "noindex, nofollow"
+    },
     "preload": [
-      "chunk-2J3TGFAW.js",
-      "chunk-2UFKL5XT.js",
-      "chunk-BGNREIHD.js",
-      "chunk-WUFOH5B5.js",
-      "chunk-YFNXOJQB.js",
-      "chunk-J6ZFOPNS.js",
-      "chunk-JJ5XJBJF.js",
-      "chunk-26ZGR6QK.js",
-      "chunk-GTFWQXGE.js"
+      "chunk-LS25VDLT.js",
+      "chunk-4U73U2Y5.js",
+      "chunk-CCUJJJ6Q.js",
+      "chunk-BZ6MJF2N.js",
+      "chunk-VVZQQXBP.js",
+      "chunk-VNFHEDD4.js",
+      "chunk-TGKPU3NL.js",
+      "chunk-3TJADGXF.js",
+      "chunk-TFXHZLUT.js"
     ],
     "route": "/services/graphics"
   },
   {
     "renderMode": 0,
+    "status": 404,
+    "headers": {
+      "X-Robots-Tag": "noindex, nofollow"
+    },
     "preload": [
-      "chunk-HPSH7OHA.js",
-      "chunk-2UFKL5XT.js",
-      "chunk-BGNREIHD.js",
-      "chunk-WUFOH5B5.js",
-      "chunk-YFNXOJQB.js",
-      "chunk-J6ZFOPNS.js",
-      "chunk-JJ5XJBJF.js",
-      "chunk-26ZGR6QK.js",
-      "chunk-GTFWQXGE.js"
+      "chunk-VFEK6X7W.js",
+      "chunk-4U73U2Y5.js",
+      "chunk-CCUJJJ6Q.js",
+      "chunk-BZ6MJF2N.js",
+      "chunk-VVZQQXBP.js",
+      "chunk-VNFHEDD4.js",
+      "chunk-TGKPU3NL.js",
+      "chunk-3TJADGXF.js",
+      "chunk-TFXHZLUT.js"
     ],
     "route": "/services/website-development"
   },
   {
     "renderMode": 0,
+    "status": 404,
+    "headers": {
+      "X-Robots-Tag": "noindex, nofollow"
+    },
     "preload": [
-      "chunk-AFTYDGVG.js",
-      "chunk-2UFKL5XT.js",
-      "chunk-BGNREIHD.js",
-      "chunk-WUFOH5B5.js",
-      "chunk-YFNXOJQB.js",
-      "chunk-J6ZFOPNS.js",
-      "chunk-JJ5XJBJF.js",
-      "chunk-26ZGR6QK.js",
-      "chunk-GTFWQXGE.js"
+      "chunk-5DFAM2CI.js",
+      "chunk-4U73U2Y5.js",
+      "chunk-CCUJJJ6Q.js",
+      "chunk-BZ6MJF2N.js",
+      "chunk-VVZQQXBP.js",
+      "chunk-VNFHEDD4.js",
+      "chunk-TGKPU3NL.js",
+      "chunk-3TJADGXF.js",
+      "chunk-TFXHZLUT.js"
     ],
     "route": "/services/ecommerce-web-development"
   },
   {
     "renderMode": 0,
+    "status": 404,
+    "headers": {
+      "X-Robots-Tag": "noindex, nofollow"
+    },
     "preload": [
-      "chunk-H6K3NHAW.js"
+      "chunk-SM3LE64H.js"
     ],
     "route": "/process"
   },
   {
     "renderMode": 0,
+    "status": 404,
+    "headers": {
+      "X-Robots-Tag": "noindex, nofollow"
+    },
     "preload": [
-      "chunk-B2XUP2QO.js"
+      "chunk-SUO45PLY.js"
     ],
     "route": "/terms-and-conditions"
   },
   {
     "renderMode": 0,
+    "status": 404,
+    "headers": {
+      "X-Robots-Tag": "noindex, nofollow"
+    },
     "preload": [
-      "chunk-ABFKSETR.js"
+      "chunk-YDXIQFTK.js"
     ],
     "route": "/privacy-policy"
   },
   {
     "renderMode": 0,
+    "status": 404,
+    "headers": {
+      "X-Robots-Tag": "noindex, nofollow"
+    },
     "preload": [
-      "chunk-QWRISCOO.js",
-      "chunk-BGNREIHD.js"
+      "chunk-I74LFYAB.js",
+      "chunk-CCUJJJ6Q.js"
     ],
     "route": "/projects"
   },
   {
     "renderMode": 0,
+    "status": 404,
+    "headers": {
+      "X-Robots-Tag": "noindex, nofollow"
+    },
     "preload": [
-      "chunk-BTJRLI2I.js",
-      "chunk-J6ZFOPNS.js",
-      "chunk-GTFWQXGE.js"
+      "chunk-HMPFWCU3.js",
+      "chunk-VNFHEDD4.js",
+      "chunk-TFXHZLUT.js"
     ],
     "route": "/project-details/*"
   },
   {
     "renderMode": 0,
+    "status": 404,
+    "headers": {
+      "X-Robots-Tag": "noindex, nofollow"
+    },
     "preload": [
-      "chunk-5GN5Z773.js",
-      "chunk-WUFOH5B5.js"
+      "chunk-373DSDMT.js",
+      "chunk-BZ6MJF2N.js"
     ],
     "route": "/contact"
   },
   {
     "renderMode": 0,
+    "status": 404,
+    "headers": {
+      "X-Robots-Tag": "noindex, nofollow"
+    },
     "preload": [
-      "chunk-5GN5Z773.js",
-      "chunk-WUFOH5B5.js"
+      "chunk-373DSDMT.js",
+      "chunk-BZ6MJF2N.js"
     ],
     "route": "/contact/*"
   },
   {
     "renderMode": 0,
+    "status": 404,
+    "headers": {
+      "X-Robots-Tag": "noindex, nofollow"
+    },
     "preload": [
-      "chunk-LQ3WO7AO.js",
+      "chunk-5PJSFMBB.js",
       "chunk-NRHSWDR4.js",
-      "chunk-YFNXOJQB.js"
+      "chunk-VVZQQXBP.js"
     ],
     "route": "/payment-success"
   },
   {
     "renderMode": 0,
+    "status": 404,
+    "headers": {
+      "X-Robots-Tag": "noindex, nofollow"
+    },
     "preload": [
-      "chunk-LQ3WO7AO.js",
+      "chunk-5PJSFMBB.js",
       "chunk-NRHSWDR4.js",
-      "chunk-YFNXOJQB.js"
+      "chunk-VVZQQXBP.js"
     ],
     "route": "/payment-success/*"
   },
   {
     "renderMode": 0,
+    "status": 404,
+    "headers": {
+      "X-Robots-Tag": "noindex, nofollow"
+    },
     "preload": [
-      "chunk-DTGWZICJ.js",
+      "chunk-CQHK3TQY.js",
       "chunk-NRHSWDR4.js",
-      "chunk-YFNXOJQB.js"
+      "chunk-VVZQQXBP.js"
     ],
     "route": "/payment-failed"
   },
   {
     "renderMode": 0,
+    "status": 404,
+    "headers": {
+      "X-Robots-Tag": "noindex, nofollow"
+    },
     "preload": [
-      "chunk-DTGWZICJ.js",
+      "chunk-CQHK3TQY.js",
       "chunk-NRHSWDR4.js",
-      "chunk-YFNXOJQB.js"
+      "chunk-VVZQQXBP.js"
     ],
     "route": "/payment-failed/*"
   },
   {
     "renderMode": 0,
+    "status": 404,
+    "headers": {
+      "X-Robots-Tag": "noindex, nofollow"
+    },
     "preload": [
-      "chunk-GNC5JLAL.js",
+      "chunk-LN5JWHJE.js",
       "chunk-NRHSWDR4.js",
-      "chunk-YFNXOJQB.js"
+      "chunk-VVZQQXBP.js"
     ],
     "route": "/unsubscription/cancel/*"
   },
   {
     "renderMode": 0,
+    "status": 404,
+    "headers": {
+      "X-Robots-Tag": "noindex, nofollow"
+    },
     "preload": [
-      "chunk-GNC5JLAL.js",
+      "chunk-LN5JWHJE.js",
       "chunk-NRHSWDR4.js",
-      "chunk-YFNXOJQB.js"
+      "chunk-VVZQQXBP.js"
     ],
     "route": "/unsubscription/pause/*"
   },
   {
     "renderMode": 0,
+    "status": 404,
+    "headers": {
+      "X-Robots-Tag": "noindex, nofollow"
+    },
     "preload": [
-      "chunk-GNC5JLAL.js",
+      "chunk-LN5JWHJE.js",
       "chunk-NRHSWDR4.js",
-      "chunk-YFNXOJQB.js"
+      "chunk-VVZQQXBP.js"
     ],
     "route": "/unsubscription/resume/*"
   },
   {
     "renderMode": 0,
+    "status": 404,
+    "headers": {
+      "X-Robots-Tag": "noindex, nofollow"
+    },
     "preload": [
-      "chunk-WYZMV6Z6.js",
-      "chunk-IDLZEIXU.js"
+      "chunk-OLQDLMM6.js",
+      "chunk-FJGHZGKR.js"
     ],
     "route": "/p/kbn"
   },
   {
     "renderMode": 0,
+    "status": 404,
+    "headers": {
+      "X-Robots-Tag": "noindex, nofollow"
+    },
     "preload": [
-      "chunk-KHGGT2PQ.js",
-      "chunk-IDLZEIXU.js"
+      "chunk-5ZPWBFU4.js",
+      "chunk-FJGHZGKR.js"
     ],
     "route": "/p/js"
   },
   {
     "renderMode": 0,
+    "status": 404,
+    "headers": {
+      "X-Robots-Tag": "noindex, nofollow"
+    },
     "preload": [
-      "chunk-42CKOC5T.js",
-      "chunk-IDLZEIXU.js"
+      "chunk-BBQRID5N.js",
+      "chunk-FJGHZGKR.js"
     ],
     "route": "/p/io"
   },
   {
     "renderMode": 0,
+    "status": 404,
+    "headers": {
+      "X-Robots-Tag": "noindex, nofollow"
+    },
     "preload": [
-      "chunk-CPHD52XF.js",
-      "chunk-IDLZEIXU.js"
+      "chunk-4TBDPYQ4.js",
+      "chunk-FJGHZGKR.js"
     ],
     "route": "/p/godly"
   },
   {
     "renderMode": 0,
+    "status": 404,
+    "headers": {
+      "X-Robots-Tag": "noindex, nofollow"
+    },
     "preload": [
-      "chunk-F7ME6KFO.js"
+      "chunk-BEN3SGWR.js"
     ],
     "route": "/**"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 16076, hash: '3ef97911a202784d4eccc1d342ca6d3260f21e4938d925f7161dd1416ece0c88', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 13900, hash: '2d95709f86904b5714c9585ac7c371cdb30df6a2bf6025976f36d82524df6f30', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 16076, hash: '28847d4e2c574a04bbf27a081bbcb42672fb06db317c65b943b3055f7073ca3a', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 13900, hash: '797f09d4550b3e53d420e4d5fc006f05f5c821afa90e9c130107e8420a6597e5', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
     'styles-ZAXRAG4S.css': {size: 12527, hash: 'X95/zaCsl14', text: () => import('./assets-chunks/styles-ZAXRAG4S_css.mjs').then(m => m.default)}
   },
 };

@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pixtar | Page Not Found</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="The page you requested could not be found. Continue exploring Pixtar from the homepage, services, projects, or contact page.">
+  <style>
+    :root {
+      color-scheme: light;
+      --page-bg: #eeedf0;
+      --card-bg: rgba(255, 255, 255, 0.88);
+      --text-main: #1d1d1f;
+      --text-muted: #676767;
+      --accent: #da9777;
+      --border: rgba(29, 29, 31, 0.12);
+      --shadow: 0 24px 80px rgba(29, 29, 31, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Segoe UI", Arial, sans-serif;
+      color: var(--text-main);
+      background:
+        radial-gradient(circle at top, rgba(218, 151, 119, 0.28), transparent 40%),
+        linear-gradient(180deg, #f5f1ec 0%, var(--page-bg) 100%);
+    }
+
+    main {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .card {
+      width: min(100%, 840px);
+      padding: clamp(28px, 5vw, 60px);
+      border: 1px solid var(--border);
+      border-radius: 32px;
+      background: var(--card-bg);
+      box-shadow: var(--shadow);
+      text-align: center;
+      backdrop-filter: blur(12px);
+    }
+
+    .brand {
+      margin: 0 0 12px;
+      letter-spacing: 0.24em;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--accent);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(4.5rem, 16vw, 9rem);
+      line-height: 0.95;
+    }
+
+    h2 {
+      margin: 16px 0;
+      font-size: clamp(1.9rem, 3vw, 3rem);
+      line-height: 1.08;
+    }
+
+    p {
+      width: min(100%, 620px);
+      margin: 0 auto 28px;
+      color: var(--text-muted);
+      font-size: clamp(1rem, 1.5vw, 1.15rem);
+      line-height: 1.7;
+    }
+
+    .actions,
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .actions {
+      margin-bottom: 20px;
+    }
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 13px 22px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      text-decoration: none;
+      transition: transform 0.2s ease, border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
+    }
+
+    .primary {
+      background: var(--text-main);
+      border-color: var(--text-main);
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .secondary,
+    .links a {
+      background: rgba(255, 255, 255, 0.72);
+      color: var(--text-main);
+    }
+
+    a:hover,
+    a:focus-visible {
+      transform: translateY(-2px);
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .primary:hover,
+    .primary:focus-visible {
+      background: #000;
+      color: #fff;
+    }
+
+    @media (max-width: 767px) {
+      main {
+        padding: 12px;
+      }
+
+      .card {
+        border-radius: 24px;
+        padding: 28px 20px;
+      }
+
+      .actions a {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card" aria-labelledby="error-title">
+      <p class="brand">PIXTAR</p>
+      <h1>404</h1>
+      <h2 id="error-title">Sorry, this page could not be found</h2>
+      <p>The link may be broken, outdated, or the page may have moved. Continue exploring Pixtar using the links below.</p>
+
+      <div class="actions">
+        <a class="primary" href="/">Back to Home</a>
+        <a class="secondary" href="/contact">Report a Broken Link</a>
+      </div>
+
+      <div class="links">
+        <a href="/services">Services</a>
+        <a href="/projects">Projects</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
