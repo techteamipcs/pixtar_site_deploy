@@ -222,6 +222,10 @@
       "TEXT7": "need us"
     }
   },
+  "PROJECTS": {    
+     "TITLE1": "Turning businesses",
+     "TITLE2": "Into brands"
+  },
   "WORKS": {
     "RECENT_WORK": "Recent Works",
     "BOOK_A_CONSULTATION": "Book A Consultation"
@@ -281,7 +285,9 @@
     "Desc3": "We don’t just deliver; we partner with you, going above and beyond with 100% transparency at every step of the way."
   },
   "CONTACT": {
-    "DESCRIPTION": "Describe your project and leave us your contact info, we’ll get back to you ASAP.",
+    "TITLE1": "Ready to turn your",
+    "TITLE2": "business into brand?",
+    "DESCRIPTION": "Describe your project with your contact and we’ll be in touch with the next steps — A free 30 minute consultation call — so we can give you an accurate quote for your project.",
     "WHAT_YOUR_NAME": "What's your Name?",
     "WHAT_YOUR_EMAIL": "What's your E-mail?",
     "TELL_US_ABOUT_YOUR_PROJECT": "Tell us about your project :)",
