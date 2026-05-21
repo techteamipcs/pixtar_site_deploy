@@ -8,8 +8,8 @@ export default {
   {
     "renderMode": 0,
     "preload": [
-      "chunk-YFGJONIW.js",
-      "chunk-CFSIIU5A.js",
+      "chunk-K5H6O4XX.js",
+      "chunk-6MM7SZ4U.js",
       "chunk-6RYCBRBG.js"
     ],
     "route": "/"
@@ -17,8 +17,8 @@ export default {
   {
     "renderMode": 0,
     "preload": [
-      "chunk-6QB7HJIK.js",
-      "chunk-CFSIIU5A.js",
+      "chunk-Z4W7F6KP.js",
+      "chunk-6MM7SZ4U.js",
       "chunk-6RYCBRBG.js"
     ],
     "route": "/about"
@@ -26,11 +26,11 @@ export default {
   {
     "renderMode": 0,
     "preload": [
-      "chunk-636DT4WK.js",
-      "chunk-T3SMIDF2.js",
-      "chunk-W6AMDZL4.js",
-      "chunk-22EZHZCD.js",
-      "chunk-CFSIIU5A.js",
+      "chunk-LH3574RR.js",
+      "chunk-BVEPOLDB.js",
+      "chunk-K2WG6BZY.js",
+      "chunk-4BTBPTTY.js",
+      "chunk-6MM7SZ4U.js",
       "chunk-6RYCBRBG.js"
     ],
     "route": "/services"
@@ -38,14 +38,14 @@ export default {
   {
     "renderMode": 0,
     "preload": [
-      "chunk-BLWRYY3R.js",
-      "chunk-BAOCDR5U.js",
+      "chunk-VMKH3F46.js",
+      "chunk-XN7YBONL.js",
       "chunk-HIG45VMH.js",
-      "chunk-ORURVLRD.js",
+      "chunk-63PLCGCM.js",
       "chunk-XEB35I3N.js",
-      "chunk-W6AMDZL4.js",
-      "chunk-22EZHZCD.js",
-      "chunk-CFSIIU5A.js",
+      "chunk-K2WG6BZY.js",
+      "chunk-4BTBPTTY.js",
+      "chunk-6MM7SZ4U.js",
       "chunk-6RYCBRBG.js"
     ],
     "route": "/services/branding"
@@ -53,14 +53,14 @@ export default {
   {
     "renderMode": 0,
     "preload": [
-      "chunk-E62PJPMM.js",
-      "chunk-BAOCDR5U.js",
+      "chunk-UWKKYCEM.js",
+      "chunk-XN7YBONL.js",
       "chunk-HIG45VMH.js",
-      "chunk-ORURVLRD.js",
+      "chunk-63PLCGCM.js",
       "chunk-XEB35I3N.js",
-      "chunk-W6AMDZL4.js",
-      "chunk-22EZHZCD.js",
-      "chunk-CFSIIU5A.js",
+      "chunk-K2WG6BZY.js",
+      "chunk-4BTBPTTY.js",
+      "chunk-6MM7SZ4U.js",
       "chunk-6RYCBRBG.js"
     ],
     "route": "/services/graphics"
@@ -68,14 +68,14 @@ export default {
   {
     "renderMode": 0,
     "preload": [
-      "chunk-Q63VWKEM.js",
-      "chunk-BAOCDR5U.js",
+      "chunk-YABVKPP3.js",
+      "chunk-XN7YBONL.js",
       "chunk-HIG45VMH.js",
-      "chunk-ORURVLRD.js",
+      "chunk-63PLCGCM.js",
       "chunk-XEB35I3N.js",
-      "chunk-W6AMDZL4.js",
-      "chunk-22EZHZCD.js",
-      "chunk-CFSIIU5A.js",
+      "chunk-K2WG6BZY.js",
+      "chunk-4BTBPTTY.js",
+      "chunk-6MM7SZ4U.js",
       "chunk-6RYCBRBG.js"
     ],
     "route": "/services/website-development"
@@ -83,14 +83,14 @@ export default {
   {
     "renderMode": 0,
     "preload": [
-      "chunk-IUAJJUXD.js",
-      "chunk-BAOCDR5U.js",
+      "chunk-G7MK4GLY.js",
+      "chunk-XN7YBONL.js",
       "chunk-HIG45VMH.js",
-      "chunk-ORURVLRD.js",
+      "chunk-63PLCGCM.js",
       "chunk-XEB35I3N.js",
-      "chunk-W6AMDZL4.js",
-      "chunk-22EZHZCD.js",
-      "chunk-CFSIIU5A.js",
+      "chunk-K2WG6BZY.js",
+      "chunk-4BTBPTTY.js",
+      "chunk-6MM7SZ4U.js",
       "chunk-6RYCBRBG.js"
     ],
     "route": "/services/ecommerce-web-development"
@@ -98,28 +98,28 @@ export default {
   {
     "renderMode": 0,
     "preload": [
-      "chunk-B4KIG3QN.js"
+      "chunk-67SK5W6Q.js"
     ],
     "route": "/process"
   },
   {
     "renderMode": 0,
     "preload": [
-      "chunk-3YBN2DUQ.js"
+      "chunk-OTBBZAKE.js"
     ],
     "route": "/terms-and-conditions"
   },
   {
     "renderMode": 0,
     "preload": [
-      "chunk-KZD75FOW.js"
+      "chunk-VZPPEZH3.js"
     ],
     "route": "/privacy-policy"
   },
   {
     "renderMode": 0,
     "preload": [
-      "chunk-3QZTDJR7.js",
+      "chunk-P4SQJS4K.js",
       "chunk-HIG45VMH.js"
     ],
     "route": "/projects"
@@ -127,8 +127,8 @@ export default {
   {
     "renderMode": 0,
     "preload": [
-      "chunk-UBQRKE6M.js",
-      "chunk-W6AMDZL4.js",
+      "chunk-JYDATRZU.js",
+      "chunk-K2WG6BZY.js",
       "chunk-6RYCBRBG.js"
     ],
     "route": "/project-details/*"
@@ -136,23 +136,23 @@ export default {
   {
     "renderMode": 0,
     "preload": [
-      "chunk-MALHC4Z2.js",
-      "chunk-ORURVLRD.js"
+      "chunk-CKBIYJRZ.js",
+      "chunk-63PLCGCM.js"
     ],
     "route": "/contact"
   },
   {
     "renderMode": 0,
     "preload": [
-      "chunk-MALHC4Z2.js",
-      "chunk-ORURVLRD.js"
+      "chunk-CKBIYJRZ.js",
+      "chunk-63PLCGCM.js"
     ],
     "route": "/contact/*"
   },
   {
     "renderMode": 0,
     "preload": [
-      "chunk-HVH25QNZ.js",
+      "chunk-6RJSLMPM.js",
       "chunk-NRHSWDR4.js",
       "chunk-XEB35I3N.js"
     ],
@@ -161,7 +161,7 @@ export default {
   {
     "renderMode": 0,
     "preload": [
-      "chunk-HVH25QNZ.js",
+      "chunk-6RJSLMPM.js",
       "chunk-NRHSWDR4.js",
       "chunk-XEB35I3N.js"
     ],
@@ -170,7 +170,7 @@ export default {
   {
     "renderMode": 0,
     "preload": [
-      "chunk-TZTFC66Q.js",
+      "chunk-OIDL6ZP5.js",
       "chunk-NRHSWDR4.js",
       "chunk-XEB35I3N.js"
     ],
@@ -179,7 +179,7 @@ export default {
   {
     "renderMode": 0,
     "preload": [
-      "chunk-TZTFC66Q.js",
+      "chunk-OIDL6ZP5.js",
       "chunk-NRHSWDR4.js",
       "chunk-XEB35I3N.js"
     ],
@@ -188,7 +188,7 @@ export default {
   {
     "renderMode": 0,
     "preload": [
-      "chunk-GYRLOBC5.js",
+      "chunk-U56WHHHG.js",
       "chunk-NRHSWDR4.js",
       "chunk-XEB35I3N.js"
     ],
@@ -197,7 +197,7 @@ export default {
   {
     "renderMode": 0,
     "preload": [
-      "chunk-GYRLOBC5.js",
+      "chunk-U56WHHHG.js",
       "chunk-NRHSWDR4.js",
       "chunk-XEB35I3N.js"
     ],
@@ -206,7 +206,7 @@ export default {
   {
     "renderMode": 0,
     "preload": [
-      "chunk-GYRLOBC5.js",
+      "chunk-U56WHHHG.js",
       "chunk-NRHSWDR4.js",
       "chunk-XEB35I3N.js"
     ],
@@ -254,8 +254,8 @@ export default {
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 16096, hash: '3a4125f63d503ed9cd24165db5a90034ae0a4549c6c7b5305cc0af2cf4dba9bb', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 13920, hash: 'e619e32bdd4037f2d4328292dcb912f9443ff08d00f474895e19b26846b71721', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'styles-4CO3G5Q5.css': {size: 12647, hash: 'FHwzkJ825tw', text: () => import('./assets-chunks/styles-4CO3G5Q5_css.mjs').then(m => m.default)}
+    'index.csr.html': {size: 16096, hash: '0d07633c06f8244b4cd9536cd0147af4b07a50b7a90c879246cf94d292e6c60b', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 13920, hash: 'a2301e4f7122c912d0b0001a2fcbbbc247386dae8ac14df0e63dd05630239a25', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'styles-SNHBV72R.css': {size: 12875, hash: 'YwA6TMsY4O4', text: () => import('./assets-chunks/styles-SNHBV72R_css.mjs').then(m => m.default)}
   },
 };
