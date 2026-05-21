@@ -127,7 +127,7 @@ export default {
   {
     "renderMode": 0,
     "preload": [
-      "chunk-JYDATRZU.js",
+      "chunk-TT4EI5BI.js",
       "chunk-K2WG6BZY.js",
       "chunk-6RYCBRBG.js"
     ],
@@ -254,8 +254,8 @@ export default {
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 16096, hash: '0d07633c06f8244b4cd9536cd0147af4b07a50b7a90c879246cf94d292e6c60b', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 13920, hash: 'a2301e4f7122c912d0b0001a2fcbbbc247386dae8ac14df0e63dd05630239a25', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 16096, hash: '0572c2ed229b961b3a7324c21c37fcbd4523a9899f7b8a69a2b53b614bab6071', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 13920, hash: '543938ad7a6887254e1761c3e9ab983f778e15e747ffdbe74f0aa0869af3d9a9', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
     'styles-SNHBV72R.css': {size: 12875, hash: 'YwA6TMsY4O4', text: () => import('./assets-chunks/styles-SNHBV72R_css.mjs').then(m => m.default)}
   },
 };
