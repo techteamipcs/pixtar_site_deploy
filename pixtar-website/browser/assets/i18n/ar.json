@@ -9,7 +9,7 @@
     "PHILOSOPHY": {
       "TITLE": "فلسفتنا",
       "BEAUTY_BALANCE": "الجمال، التوازن،",
-      "AND": "و",
+      "AND": "",
       "CUSTOM_CRAFTSMANSHIP": "الحرفية المخصصة",
       "DESCRIPTION": "في بيكستار، نؤمن أن التصميم ليس مجرد مظهر جمالي، بل هو خلق التوازن والتأثير والأصالة. كل مشروع نقدمه يتم بناؤه من الصفر دون استخدام قوالب—لأن عملك يستحق التميز والأصالة.",
       "PROJECT1": "مينيار للأزياء والعرائس",
@@ -22,8 +22,8 @@
       "PROJECT4_DESCRIPTION": "الهوية التجارية وموقع إلكتروني"
     },
     "SUCCESS_STORY": {
-      "TITLE": "قصص نجاح العملاء",
-      "AND": "و",
+      "TITLE": "قصص نجاح عملائنا",
+      "AND": "",
       "CREATIVITY": "إبداعنا",
       "INSPIRED": "مستوحى من قصتك"
     },
@@ -66,7 +66,7 @@
     "AESTHETICS": "جماليات",
     "DESIGN_HARMONY": "— إن الأمر يتعلق بخلق الانسجام، وإلهام الثقة، وبناء الروابط.",
     "WERE_A_TEAM_OF": "نحن فريق من",
-    "CREATORS_THINKERS": "مبدعون، ومفكرون، وحالمون — متجذرون في دبي، الإمارات العربية المتحدة.",
+    "CREATORS_THINKERS": " المبدعين والمفكرين والحالمين — متجذرون في دبي، الإمارات العربية المتحدة.",
     "DESIGNING_GLOBAL": "ولكن التصميم لجمهور عالمي.",
     "WHAT_DRIVES_OUR_DESIGN": "ما يُحرّك تصميمنا",
     "WE_CARE_ABOUT": "نحن نهتم بـ...",
@@ -114,8 +114,8 @@
     "LOGO": "الشعار",
     "ITS_HOW_THE_WORLD_SEES_YOU_AT": "هكذا يراك العالم. في",
     "PIXTAR": "بيكستار",
-    "WE_BLEND_ART_WITH_STRATEGY_TO_CREATE_BESPOKE_BRANDING_SOLUTIONS": "نحن نمزج الفن مع الإستراتيجية لإنشاء حلول مخصصة للعلامات التجارية",
-    "MAKE_YOUR_STORY_UNFORGETTABLE": "اجعل قصتك لا تنسى",
+    "WE_BLEND_ART_WITH_STRATEGY_TO_CREATE_BESPOKE_BRANDING_SOLUTIONS": " نمزج الفن مع الاستراتيجية لإنشاء حلول علامات تجارية مخصصة",
+    "MAKE_YOUR_STORY_UNFORGETTABLE": "اجعل قصتك لا تُنسى.",
     "CHOOSE_SECTION": {
       "why_choose_pixtar": "لماذا تختار بيكستار؟",
       "crafted_with_the_golden_ratio": "وضعت مع النسبة الذهبية",
@@ -213,7 +213,7 @@
     },
     "SUPPORT": {
       "TEXT1": "الدعم",
-      "TEXT2": "نحن",
+      "TEXT2": "",
       "TEXT3": "نواصل مساعدتك",
       "TEXT4": "أنت",
       "TEXT5": "طالما",
@@ -230,15 +230,15 @@
     "BOOK_A_CONSULTATION": "احجز استشارة"
   },
   "PACKAGES": {
-    "SLOTS_AVAILABLE": "فتحات المتاحة",
-    "JOIN": "ينضم",
+    "SLOTS_AVAILABLE": "الأماكن المتاحة",
+    "JOIN": "انضم إلى ",
     "PIXTAR": "بيكستار",
     "BOOK_A_15_MIN_INTRO_CALL": "احجز مكالمة تمهيدية مدتها 15 دقيقة",
-    "LEARN_MORE_ABOUT_HOW_PIXTAR_WORKS": "تعرف على المزيد حول كيفية عمل Pixtar",
-    "WORKS_AND_HOW_IT_CAN_HELP_YOU": "يعمل وكيف يمكن أن تساعدك.",
+    "LEARN_MORE_ABOUT_HOW_PIXTAR_WORKS": "تعرّف أكثر على طريقة عمل بيكستار",
+    "WORKS_AND_HOW_IT_CAN_HELP_YOU": "وكيف يمكننا مساعدتك.",
     "REFER_A_FRIEND_AND_EARN": "قم بإحالة صديق واكسب",
-    "EARN_5_MONTHLY_RECURRING_COMMISSION": "احصل على 5% شهريًا بشكل متكرر",
-    "COMMISSION_FOR_EACH_REFERRAL": "عمولة لكل إحالة",
+    "EARN_5_MONTHLY_RECURRING_COMMISSION": "احصل على عمولة 5% متكررة شهرياً",
+    "COMMISSION_FOR_EACH_REFERRAL": "عن كل إحالة تجلبها",
     "GET_STARTED": "ابدأ",
     "BOOK_A_CALL": "حجز مكالمة",
     "WHATS_INCLUDED": "ما هو مدرج",
@@ -276,7 +276,7 @@
   },
   "CHOOSE_SECTION": {
     "why_choose_pixtar": "لماذا تختار بيكستار؟",
-    "crafted_with_the_golden_ratio": "وضعت مع النسبة الذهبية",
+    "crafted_with_the_golden_ratio": "مبنيٌّ على مبادئ النسبة الذهبية",
     "Desc1": "كل ما نصممه يتبع المبادئ الخالدة للنسبة الذهبية، مما يخلق تناغمًا مثاليًا بين الشكل والوظيفة.",
     "custom_solutions_no_templates_ever": "حلول مخصصة. لا توجد قوالب. أبدًا.",
     "Desc2": "كل علامة تجارية فريدة من نوعها، وكذلك النهج الذي نتبعه. نحن نبني من الصفر، ونضمن أن عملك ينعكس في كل التفاصيل.",
