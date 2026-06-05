@@ -439,6 +439,6 @@ export default `<!doctype html>
 		}
 </script>
 	<app-root></app-root>
-<link rel="modulepreload" href="chunk-N7QV7LIJ.js"><link rel="modulepreload" href="chunk-372BPKTH.js"><link rel="modulepreload" href="chunk-EMXMDSUE.js"><link rel="modulepreload" href="chunk-EXIBFJRI.js"><link rel="modulepreload" href="chunk-PZDJMJDN.js"><link rel="modulepreload" href="chunk-NNRIUECH.js"><link rel="modulepreload" href="chunk-EMTVO6SL.js"><link rel="modulepreload" href="chunk-IMPBB4AK.js"><script src="main-OLNM4SLQ.js" type="module"></script></body>
+<link rel="modulepreload" href="chunk-N7QV7LIJ.js"><link rel="modulepreload" href="chunk-372BPKTH.js"><link rel="modulepreload" href="chunk-EMXMDSUE.js"><link rel="modulepreload" href="chunk-EXIBFJRI.js"><link rel="modulepreload" href="chunk-PZDJMJDN.js"><link rel="modulepreload" href="chunk-NNRIUECH.js"><link rel="modulepreload" href="chunk-EMTVO6SL.js"><link rel="modulepreload" href="chunk-IMPBB4AK.js"><script src="main-BISFB4PH.js" type="module"></script></body>
 
 </html>`;
