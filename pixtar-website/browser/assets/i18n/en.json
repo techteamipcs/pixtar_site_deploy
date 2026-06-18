@@ -223,9 +223,9 @@
       "TEXT7": "need us"
     }
   },
-  "PROJECTS": {    
-     "TITLE1": "Turning businesses",
-     "TITLE2": "into brands"
+  "PROJECTS": {
+    "TITLE1": "Turning businesses",
+    "TITLE2": "into brands"
   },
   "WORKS": {
     "RECENT_WORK": "Recent Works",
@@ -512,5 +512,79 @@
     "CONTACT_DESC": "For questions or concerns regarding this Privacy Policy, contact us at:",
     "CONTACT_EMAIL": "Email",
     "CONTACT_WEBSITE": "Website"
+  },
+  "COMPARE": {
+    "Heading": {
+      "title1": "Free analysis tool",
+      "title2": "Is your website losing to",
+      "title3": "the competition?",
+      "desc1": "Enter your website and a competitor's URL below. We'll surface every gap",
+      "desc2": "that's costing you clients — and show you exactly what it takes to win."
+    },
+    "STEP1": {
+      "ENTER_YOUR_WEBSITE": "step 01 — enter your websites",
+      "RUN_THE": "Run the",
+      "COMPARISON": "comparison",
+      "YOUR_WEBSITE_URL": "Your website URL",
+      "COMPETITOR_WEBSITE_URL": "Competitor website URL",
+      "MOBILE": "Mobile",
+      "DESKTOP": "Desktop",
+      "YOUR_INDUSTRY": "Your industry",
+      "OPTIONAL": "optional",
+      "RUN_COMPARISON": "Run Comparison"
+    },
+    "STEP2": {
+      "OVERALL_SCORES": "step 02 — overall scores",
+      "THE": "The",
+      "VERDICT": "verdict",
+      "YOUR_WEBSITE": "Your website",
+      "COMPETITOR": "Competitor"
+    },
+    "STEP3": {
+      "METRIC_BREAKDOWN": "step 03 — metric breakdown",
+      "WHERE_YOU": "Where you",
+      "STAND": "stand",
+      "METRIC": "Metric",
+      "RESULT": "Result",
+      "YOUR_SITE": "Your site",
+      "COMPETITOR": "Competitor"
+    },
+    "STEP4": {
+      "UNLOCK_FULL_REPORT": "step 04 — unlock full report",
+      "SEE": "See",
+      "EXACTLY": "exactly",
+      "WHAT_TO_FIX": "what to fix",
+      "YOUR_REPORT_IS_READY": "Your report is ready",
+      "GET_YOUR": "Get your",
+      "PERSONALISED": "personalised",
+      "GAP_ANALYSIS": "gap analysis",
+      "ENTER_YOUR": "Enter your contact details to unlock the complete breakdown — including every gap identified, its impact on your business and Pixtar's recommended fixes.",
+      "FULL_GAP_BREAKDOWN": "Full gap breakdown with specific recommendations",
+      "PIXTA_CONSULTANT_FOLLOW_UP": "Pixtar consultant follow-up within 24 hours",
+      "FREE_30_MINUTE_CONSULTATION": "Free 30-minute consultation offer included",
+      "YOUR_FULL_NAME": "Your full name",
+      "BUSINESS_NAME": "Business name",
+      "WHATSAPP_NUMBER": "WhatsApp number",
+      "EMAIL_ADDRESS": "Email address",
+      "UNLOCK_MY_FULL_REPORT": "Unlock My Full Report",
+      "NO_SPAM": "No spam. Your details are used only to send your report and follow up.",
+      "PRIVACY_POLICY": "Privacy policy"
+    },
+    "STEP5": {
+      "GAP_ANALYSIS": "step 05 — gap analysis",
+      "WHATS": "What's",
+      "COSTING_YOU": "costing you",
+      "CLIENTS": "clients",
+      "CALENDAR_ERROR": "Could not load the calendar. Please try again.",
+      "TRY_AGAIN": "Try again"
+    },
+    "BUTTON": {
+      "TITLE": "Is your",
+      "WEBSITE_TEXT": "Website",
+      "WORKING_AS_HARD": "working as hard",
+      "AS_IT_SHOULD_BE": "as it should be?",
+      "BUTTON_TEXT": "Test my website now",
+      "SUBTITLE": "Compare your website with your competitor."
+    }
   }
 }
