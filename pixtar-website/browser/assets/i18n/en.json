@@ -538,6 +538,7 @@
       "THE": "The",
       "VERDICT": "verdict",
       "YOUR_WEBSITE": "Your website",
+      "YOUR_SITE": "Your site",
       "COMPETITOR": "Competitor"
     },
     "STEP3": {
@@ -547,7 +548,11 @@
       "METRIC": "Metric",
       "RESULT": "Result",
       "YOUR_SITE": "Your site",
-      "COMPETITOR": "Competitor"
+      "COMPETITOR": "Competitor",
+      "PREMIUM_ANALYSIS": "Premium Analysis",
+      "LEVEL": "LEVEL",
+      "UNLOCK_COMPLETE_ANALYSIS": "Unlock Complete Analysis",
+      "GET_DETAILED": "Get detailed competitor insights, technical recommendations,SEO opportunities and conversion improvements."
     },
     "STEP4": {
       "UNLOCK_FULL_REPORT": "step 04 — unlock full report",
@@ -585,6 +590,27 @@
       "AS_IT_SHOULD_BE": "as it should be?",
       "BUTTON_TEXT": "Test my website now",
       "SUBTITLE": "Compare your website with your competitor."
+    },
+    "LOADING_STEPS": [
+      "Fetching your website data",
+      "Fetching competitor data",
+      "Comparing metrics",
+      "Building your report"
+    ],
+    "MODAL": {
+      "YOUR_REPORT_IS_READY": "Your Report Is Ready",
+      "GET_YOUR": "Get Your",
+      "PERSONALISED": "Personalised",
+      "GAP_ANALYSIS": "Gap Analysis",
+      "ENTER_YOUR": "Enter your details below to receive your report and free consultation.",
+      "FULL_GAP_BREAKDOWN": "Full Gap Breakdown",
+      "PIXTAR_CONSULTANT_FOLLOW_UP": "Pixtar Consultant Follow Up",
+      "FREE_30_MINUTE_CONSULTATION": "Free 30 Minute Consultation",
+      "YOUR_FULL_NAME": "Your Full Name",
+      "BUSINESS_NAME": "Business Name",
+      "WHATSAPP_NUMBER": "WhatsApp Number",
+      "EMAIL_ADDRESS": "Email Address",
+      "UNLOCK_MY_FULL_REPORT": "Unlock My Full Report"
     }
   }
 }

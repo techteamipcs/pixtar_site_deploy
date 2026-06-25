@@ -537,6 +537,7 @@
       "THE": "الحكم",
       "VERDICT": "النهائي",
       "YOUR_WEBSITE": "موقعك الإلكتروني",
+      "YOUR_SITE": "موقعك",
       "COMPETITOR": "المنافس"
     },
     "STEP3": {
@@ -546,7 +547,11 @@
       "METRIC": "المقياس",
       "RESULT": "النتيجة",
       "YOUR_SITE": "موقعك",
-      "COMPETITOR": "المنافس"
+      "COMPETITOR": "المنافس",
+      "PREMIUM_ANALYSIS": "تحليل متميز",
+      "LEVEL": "المستوى",
+      "UNLOCK_COMPLETE_ANALYSIS": "افتح التحليل الكامل",
+      "GET_DETAILED": "احصل على رؤى تفصيلية للمنافسين وتوصيات تقنية وفرص SEO وتحسينات في معدل التحويل."
     },
     "STEP4": {
       "UNLOCK_FULL_REPORT": "الخطوة ٠٤ — فتح التقرير الكامل",
@@ -584,6 +589,27 @@
       "AS_IT_SHOULD_BE": "المطلوبة؟",
       "BUTTON_TEXT": "اختبر موقعي الآن",
       "SUBTITLE": "قارن موقعك الإلكتروني بمنافسيك."
+    },
+    "LOADING_STEPS": [
+      "جارٍ جلب بيانات موقعك",
+      "جارٍ جلب بيانات المنافسين",
+      "جارٍ مقارنة المقاييس",
+      "جارٍ إنشاء تقريرك"
+    ],
+    "MODAL": {
+      "YOUR_REPORT_IS_READY": "تقريرك جاهز",
+      "GET_YOUR": "احصل على",
+      "PERSONALISED": "المخصص",
+      "GAP_ANALYSIS": "تحليل الفجوات",
+      "ENTER_YOUR": "أدخل بياناتك أدناه لتلقي تقريرك واستشارة مجانية.",
+      "FULL_GAP_BREAKDOWN": "التفصيل الكامل للفجوات",
+      "PIXTA_CONSULTANT_FOLLOW_UP": "متابعة مستشار بيكستار",
+      "FREE_30_MINUTE_CONSULTATION": "استشارة مجانية لمدة 30 دقيقة",
+      "YOUR_FULL_NAME": "الاسم الكامل",
+      "BUSINESS_NAME": "اسم الشركة",
+      "WHATSAPP_NUMBER": "رقم واتساب",
+      "EMAIL_ADDRESS": "البريد الإلكتروني",
+      "UNLOCK_MY_FULL_REPORT": "فتح تقريري الكامل"
     }
   }
 }
